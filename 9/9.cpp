@@ -3,11 +3,13 @@
 #include<Windows.h>
 
 // Функция, которая возвращает пару
-std::pair<int, std::string> getPair() {
+std::pair<int, std::string> getPair() 
+{
     return { 42, "ответ" };
 }
 
-int main() {
+int main() 
+{
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     // Создаем пару без функции
